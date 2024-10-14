@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  .navbar {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+}
