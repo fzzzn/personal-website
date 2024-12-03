@@ -55,7 +55,7 @@ const SwitchTheme = () => {
       <div
         tabIndex={0}
         role='button'
-        className='btn btn-ghost btn-circle'
+        className='btn btn-neutral btn-circle'
         onClick={toggleDropdown}
       >
         {renderIcon()}

@@ -1,22 +1,23 @@
 const Hero = () => {
   return (
-    <div>
-      <h1 className='text-4xl font-bold mb-6'>
-        Fauzan&apos;s Personal Website.
+    <div className="-pt-10">
+      <h1 className='text-4xl font-bold mb-1'>
+        Rizky Fauzan Hanif
       </h1>
+      <h2 className='text-xl mb-8'>Network Engineer</h2>
       <p className='text-lg mb-2'>Hi, I&apos;m Rizky Fauzan Hanif</p>
-      <p className='mb-6'>
+      <p className='mb-2'>
         A passionate student at SMKN 2 Depok Sleman, dedicated to mastering
         networking, DevOps, and cybersecurity. I&apos;m fascinated by the power
         of networking technologies, from tunneling to building secure
         infrastructures.
       </p>
-      <p className='mb-6'>
+      <p className='mb-2'>
         To deepen my knowledge, I’ve earned my MikroTik Certified Network
         Associate (MTCNA) certification, honing my skills in network setup,
         configuration, and troubleshooting.
       </p>
-      <p className='mb-6'>
+      <p className='mb-2'>
         With a strong focus on network engineering and network security,
         I&apos;m continuously exploring new technologies to design secure,
         scalable networks. Alongside this, I&apos;ve gained certifications in
@@ -34,11 +35,11 @@ const Hero = () => {
       <ul className='space-y-2'>
         <li>
           <a
-            href='mailto:fauzan@zxn.my.id'
+            href='mailto:contact@rizkyfauzan.id'
             className='underline'
             title='Send an email'
           >
-            fauzan at zxn my id
+            contact at rizkyfauzan.id
           </a>
           <span> </span>
           <a
